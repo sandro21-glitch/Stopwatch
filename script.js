@@ -19,14 +19,14 @@ startT.addEventListener('click', function(){
 });
 
 stopT.addEventListener('click', () => {
-    startT.disabled = false;
     stopTimer();
+    startT.disabled = false;
 });
 
 resetT.addEventListener('click', function() {
-    startT.disabled = false;
     clearInterval(interval);
     resetTimer();
+    startT.disabled = false;
 });
 
 
