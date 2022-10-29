@@ -13,7 +13,7 @@ let seconds = 0;
 let minutes = 0; 
 
 
-startT.addEventListener('click', function(),{once:true} {
+startT.addEventListener('click', function(), {once:true} {
     interval = setInterval(startTimer, 10);
 });
 
