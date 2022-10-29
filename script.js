@@ -14,6 +14,7 @@ let minutes = 0;
 
 
 startT.addEventListener('click', function(), {once:true} {
+    startT.disabled = true;
     interval = setInterval(startTimer, 10);
 });
 
